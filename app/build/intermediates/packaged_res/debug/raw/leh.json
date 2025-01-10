@@ -1,0 +1,49 @@
+{
+  "journey": [
+    {
+      "date": "2024-06-15",
+      "type": "travel",
+      "location": {
+        "nodeName": "Leh Airport",
+        "city": "Leh",
+        "areaName": "Kushok Bakula Rimpochee Airport"
+      },
+      "stopDuration": "60",
+      "transportMode": "airplane",
+      "travelTime": "1 hour 30 minutes",
+      "photos": [
+        "https://example.com/photos/leh_airport.jpg"
+      ],
+      "weather": "Sunny",
+      "temperature": 15,
+      "activityLevel": "Relaxing",
+      "nearbyPlaces": []
+    },
+    {
+      "date": "2024-06-15",
+      "type": "accommodation",
+      "location": {
+        "nodeName": "Hotel Grand Dragon Ladakh",
+        "city": "Leh",
+        "address": "Old Road Sheynam, Leh Ladakh 194101 India",
+        "link": "https://www.hoteldragongrand.com/"
+      },
+      "stopDuration": "240",
+      "photos": [
+        "https://example.com/photos/grand_dragon_ladakh.jpg"
+      ],
+      "nearbyPlaces": [
+        {
+          "nodeName": "Leh Market",
+          "city": "Leh",
+          "nodeType": "shopping"
+        },
+        {
+          "nodeName": "Soma Gompa",
+          "city": "Leh",
+          "nodeType": "monastery"
+        }
+      ]
+    }
+  ]
+}

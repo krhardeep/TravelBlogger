@@ -201,6 +201,8 @@ layout notification_template_part_chronometer
 layout notification_template_part_time
 mipmap ic_launcher
 mipmap ic_launcher_round
+raw leh
+raw pondicherry
 string action_go
 string action_send
 string action_try
@@ -261,12 +263,16 @@ string expanded
 string in_progress
 string indeterminate
 string m3c_bottom_sheet_pane_title
+string menu_adventure_title
 string menu_chat_description
 string menu_chat_title
+string menu_culture_title
+string menu_food_title
 string menu_reason_description
 string menu_reason_title
 string menu_summarize_description
 string menu_summarize_title
+string menu_travel_title
 string navigation_menu
 string not_selected
 string off

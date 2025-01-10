@@ -1,78 +1,90 @@
 [
     {
-        "merged": "com.google.ai.sample.app-merged_res-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.google.ai.sample.app-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-merged_res-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.google.ai.sample.app-merged_res-4:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.google.ai.sample.app-main-6:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.google.ai.sample.app-merged_res-4:/raw_leh.json.flat",
+        "source": "com.google.ai.sample.app-main-6:/raw/leh.json"
     },
     {
-        "merged": "com.google.ai.sample.app-merged_res-4:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.google.ai.sample.app-main-6:/drawable/ic_launcher_background.xml"
+        "merged": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-merged_res-4:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-main-6:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.google.ai.sample.app-merged_res-4:/xml_data_extraction_rules.xml.flat",
-        "source": "com.google.ai.sample.app-main-6:/xml/data_extraction_rules.xml"
+        "merged": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-merged_res-4:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-main-6:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.google.ai.sample.app-merged_res-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.google.ai.sample.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-merged_res-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-main-6:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.google.ai.sample.app-merged_res-4:/mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "com.google.ai.sample.app-main-6:/mipmap-anydpi/ic_launcher_round.xml"
+        "merged": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-merged_res-4:/xml_data_extraction_rules.xml.flat",
+        "source": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-main-6:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.google.ai.sample.app-merged_res-4:/mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "com.google.ai.sample.app-main-6:/mipmap-anydpi/ic_launcher.xml"
+        "merged": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-merged_res-4:/raw_pondicherry.json.flat",
+        "source": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-main-6:/raw/pondicherry.json"
     },
     {
-        "merged": "com.google.ai.sample.app-merged_res-4:/drawable_image1.png.flat",
-        "source": "com.google.ai.sample.app-main-6:/drawable/image1.png"
+        "merged": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-merged_res-4:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-main-6:/mipmap-anydpi/ic_launcher_round.xml"
     },
     {
-        "merged": "com.google.ai.sample.app-merged_res-4:/drawable_image2.png.flat",
-        "source": "com.google.ai.sample.app-main-6:/drawable/image2.png"
+        "merged": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-merged_res-4:/drawable_image2.png.flat",
+        "source": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-main-6:/drawable/image2.png"
     },
     {
-        "merged": "com.google.ai.sample.app-merged_res-4:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.google.ai.sample.app-main-6:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-merged_res-4:/drawable_image.png.flat",
+        "source": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-main-6:/drawable/image.png"
     },
     {
-        "merged": "com.google.ai.sample.app-merged_res-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.google.ai.sample.app-main-6:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-merged_res-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.google.ai.sample.app-merged_res-4:/drawable_image.png.flat",
-        "source": "com.google.ai.sample.app-main-6:/drawable/image.png"
+        "merged": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-merged_res-4:/raw_leh.json.flat",
+        "source": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-main-6:/raw/leh.json"
     },
     {
-        "merged": "com.google.ai.sample.app-merged_res-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.google.ai.sample.app-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-merged_res-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.google.ai.sample.app-merged_res-4:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.google.ai.sample.app-main-6:/drawable/ic_launcher_foreground.xml"
+        "merged": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-merged_res-4:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-main-6:/mipmap-anydpi/ic_launcher.xml"
     },
     {
-        "merged": "com.google.ai.sample.app-merged_res-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.google.ai.sample.app-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-merged_res-4:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-main-6:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.google.ai.sample.app-merged_res-4:/xml_backup_rules.xml.flat",
-        "source": "com.google.ai.sample.app-main-6:/xml/backup_rules.xml"
+        "merged": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-merged_res-4:/xml_backup_rules.xml.flat",
+        "source": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-main-6:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.google.ai.sample.app-merged_res-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.google.ai.sample.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-merged_res-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.google.ai.sample.app-merged_res-4:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.google.ai.sample.app-main-6:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-merged_res-4:/drawable_image1.png.flat",
+        "source": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-main-6:/drawable/image1.png"
     },
     {
-        "merged": "com.google.ai.sample.app-merged_res-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.google.ai.sample.app-main-6:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-merged_res-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-main-6:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-merged_res-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-main-6:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-merged_res-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-main-6:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-merged_res-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/usr/local/google/home/krhardeep/androidx-main/out/.gradle/daemon/8.4/com.google.ai.sample.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
     }
 ]

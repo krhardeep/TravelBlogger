@@ -35,7 +35,7 @@ import androidx.compose.ui.unit.dp
 data class MenuItem(
     val routeId: String,
     val titleResId: Int,
-    val descriptionResId: Int
+   // val descriptionResId: Int
 )
 
 @Composable
@@ -43,9 +43,10 @@ fun MenuScreen(
     onItemClicked: (String) -> Unit = { }
 ) {
     val menuItems = listOf(
-        MenuItem("summarize", R.string.menu_summarize_title, R.string.menu_summarize_description),
-        MenuItem("photo_reasoning", R.string.menu_reason_title, R.string.menu_reason_description),
-        MenuItem("chat", R.string.menu_chat_title, R.string.menu_chat_description)
+        MenuItem("Travel", R.string.menu_travel_title),
+        MenuItem("Food", R.string.menu_food_title),
+        MenuItem("Culture", R.string.menu_culture_title),
+        MenuItem("Adventure", R.string.menu_adventure_title)
     )
     LazyColumn(
         Modifier
@@ -66,11 +67,11 @@ fun MenuScreen(
                         text = stringResource(menuItem.titleResId),
                         style = MaterialTheme.typography.titleMedium
                     )
-                    Text(
-                        text = stringResource(menuItem.descriptionResId),
-                        style = MaterialTheme.typography.bodyMedium,
-                        modifier = Modifier.padding(top = 8.dp)
-                    )
+//                    Text(
+//                        text = stringResource(menuItem.descriptionResId),
+//                        style = MaterialTheme.typography.bodyMedium,
+//                        modifier = Modifier.padding(top = 8.dp)
+//                    )
                     TextButton(
                         onClick = {
                             onItemClicked(menuItem.routeId)

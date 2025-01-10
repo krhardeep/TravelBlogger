@@ -92,4 +92,5 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
     implementation("com.google.ai.client.generativeai:generativeai:0.9.0")
+    implementation("com.google.code.gson:gson:2.8.9")
 }

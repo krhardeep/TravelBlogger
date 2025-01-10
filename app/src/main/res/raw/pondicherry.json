@@ -1,0 +1,107 @@
+[
+  {
+    "place": {
+      "node_name": "Bangalore",
+      "area_name": "Chinnapannahalli"
+    },
+    "time": "05:23:42",
+    "weather": "foggy",
+    "stop_duration": 15
+  },
+  {
+    "place": {
+      "node_name": "Krishnagiri"
+    },
+    "nearby_places": [
+      {
+        "place": {
+          "node_name": "Sai Ananda Bhavan",
+          "node_type": "Food",
+          "link": "https://www.google.com/maps/place/Sai+Ananda+Bhavan/@12.5102177,78.2205785,747m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bac348df4aed60b:0x7e975946cc753608!8m2!3d12.5102177!4d78.2205785!16s%2Fg%2F11csrhwrv9!5m1!1e1?hl=en&entry=ttu&g_ep=EgoyMDI1MDEwMi4wIKXMDSoASAFQAw%3D%3D"
+        }
+      },
+      {
+        "place": {
+          "node_name": "Hunger Brunch",
+          "node_type": "Food",
+          "link": "https://www.google.com/maps/place/Hunger+Brunch/@12.5108384,78.2200479,240m/data=!3m1!1e3!4m14!1m7!3m6!1s0x3bac348df4aed60b:0x7e975946cc753608!2sSai+Ananda+Bhavan!8m2!3d12.5102177!4d78.2205785!16s%2Fg%2F11csrhwrv9!3m5!1s0x3bac34bd186fdb09:0x721dc41d30000000!8m2!3d12.5114121!4d78.2196374!16s%2Fg%2F11q96ms5st!5m1!1e1?hl=en&entry=ttu&g_ep=EgoyMDI1MDEwMi4wIKXMDSoASAFQAw%3D%3D"
+        }
+      },
+      {
+        "place": {
+          "node_name": "Sastha Motors",
+          "node_type": "Shopping",
+          "link": "https://www.google.com/maps/place/Sastha+Motors/@12.5103253,78.2202653,747m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bac35d59209599d:0x377d3904ec685a4a!8m2!3d12.5103253!4d78.2202653!16s%2Fg%2F11fm09vqyy!5m1!1e1?hl=en&entry=ttu&g_ep=EgoyMDI1MDEwMi4wIKXMDSoASAFQAw%3D%3D"
+        }
+      }
+    ],
+    "time": "07:05:25",
+    "weather": "breezy morning",
+    "stop_duration": 45
+  },
+  {
+    "place": {
+      "node_name": "Tiruvannamalai",
+      "area_name": "Pavazhakundur"
+    },
+    "nearby_places": [
+      {
+        "place": {
+          "node_name": "Arulmigu Annamalaiyar Temple",
+          "node_type": "temple",
+          "link": "https://www.google.com/maps/place/Arulmigu+Annamalaiyar+Temple+-+Thiruvannamalai/@12.2319028,79.0666321,747m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bacc0888c761eeb:0x2bbbe52dd9d1f2b2!8m2!3d12.2319028!4d79.0666321!16s%2Fm%2F02qk9s1!5m1!1e1?hl=en&entry=ttu&g_ep=EgoyMDI1MDEwMi4wIKXMDSoASAFQAw%3D%3D"
+        }
+      },
+      {
+        "place": {
+          "node_name": "Sri Kamalakshi Panduranga Thirumana Mahal",
+          "node_type": "sightseeing",
+          "link": "https://www.google.com/maps?hl=en&gl=in&um=1&ie=UTF-8&fb=1&sa=X&ftid=0x3bacc088183930f7:0x74ba950d3180fb43"
+        }
+      }
+    ],
+    "time": "10:35:25",
+    "weather": "Sunny morning"
+  },
+  {
+    "place": {
+      "node_name": "Tiruvannamalai",
+      "area_name": "Pavazhakundur"
+    },
+    "nearby_places": [
+      {
+        "place": {
+          "node_name": "Arulmigu Annamalaiyar Temple",
+          "node_type": "temple",
+          "link": "https://www.google.com/maps/place/Arulmigu+Annamalaiyar+Temple+-+Thiruvannamalai/@12.2319028,79.0666321,747m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3bacc0888c761eeb:0x2bbbe52dd9d1f2b2!8m2!3d12.2319028!4d79.0666321!16s%2Fm%2F02qk9s1!5m1!1e1?hl=en&entry=ttu&g_ep=EgoyMDI1MDEwMi4wIKXMDSoASAFQAw%3D%3D"
+        }
+      },
+      {
+        "place": {
+          "node_name": "Sri Kamalakshi Panduranga Thirumana Mahal",
+          "node_type": "sightseeing",
+          "link": "https://www.google.com/maps?hl=en&gl=in&um=1&ie=UTF-8&fb=1&sa=X&ftid=0x3bacc088183930f7:0x74ba950d3180fb43"
+        }
+      }
+    ],
+    "time": "10:35:25",
+    "weather": "Sunny morning"
+  },
+  {
+    "place": {
+      "node_name": "Pondicherry",
+      "area_name": "French colony"
+    },
+    "nearby_places": [
+      {
+        "place": {
+          "node_name": "Pondi Marina",
+          "node_type": "Beach",
+          "link": "https://www.google.com/maps/place/Pondy+Marina/@11.9343017,79.7764932,11015m/data=!3m1!1e3!4m15!1m8!3m7!1s0x3a5361ab8e49cfcf:0xcc6bd326d2f0b04e!2sPuducherry!3b1!8m2!3d11.9415915!4d79.8083133!16zL20vMDc3Nzl3!3m5!1s0x3a53622096660903:0x6239072678150457!8m2!3d11.913038!4d79.8293662!16s%2Fg%2F11ddxjthv2!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDEwMi4wIKXMDSoASAFQAw%3D%3D"
+        }
+      }
+    ],
+    "time": "2:35:25",
+    "weather": "Sunny afternoon with humidity"
+  }
+]

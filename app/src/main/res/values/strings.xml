@@ -13,7 +13,7 @@
      limitations under the License.
 -->
 <resources>
-    <string name="app_name">Generative AI Sample App</string>
+    <string name="app_name">Travel Blogger</string>
     <string name="action_go">Go</string>
     <string name="action_try">Try it</string>
 
@@ -24,6 +24,10 @@
     <string name="menu_reason_description">Sample app for uploading images and asking about them</string>
     <string name="menu_chat_title">Build multi-turn conversations (chat)</string>
     <string name="menu_chat_description">Sample app demonstrating a conversational UI</string>
+    <string name="menu_travel_title">Travel</string>
+    <string name="menu_food_title">Food</string>
+    <string name="menu_culture_title">Culture</string>
+    <string name="menu_adventure_title">Culture</string>
 
     <!-- Summarize sample strings -->
     <string name="summarize_label">Text</string>

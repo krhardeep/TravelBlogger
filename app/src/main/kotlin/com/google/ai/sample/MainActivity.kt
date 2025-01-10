@@ -16,6 +16,7 @@
 
 package com.google.ai.sample
 
+import android.content.Context
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -35,6 +36,7 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setApplicationContext(applicationContext)
 
         setContent {
             GenerativeAISample {
@@ -51,13 +53,7 @@ class MainActivity : ComponentActivity() {
                                 navController.navigate(routeId)
                             })
                         }
-                        composable("summarize") {
-                            SummarizeRoute()
-                        }
-                        composable("photo_reasoning") {
-                            PhotoReasoningRoute()
-                        }
-                        composable("chat") {
+                        composable("travel") {
                             ChatRoute()
                         }
                     }
@@ -65,4 +61,12 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
+    companion object {
+        var context: Context? = null
+        private fun setApplicationContext(c: Context) {
+            context = c
+        }
+    }
+
 }

@@ -26,5 +26,20 @@ data class ChatMessage(
     val id: String = UUID.randomUUID().toString(),
     var text: String = "",
     val participant: Participant = Participant.USER,
-    var isPending: Boolean = false
+    var isPending: Boolean = false,
+    var chips: List<ChipDetails> = emptyList(),
+    val isMultiselect: Boolean = false
 )
+
+data class ChipDetails(
+    val id: String,
+    val type: ChipType,
+    val text: String,
+    var enabled: Boolean = false
+)
+
+sealed class ChipType {
+    data object Trip: ChipType()
+    data object Food: ChipType()
+    data object Scenic: ChipType()
+}
