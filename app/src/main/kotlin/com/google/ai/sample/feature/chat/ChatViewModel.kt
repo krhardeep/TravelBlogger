@@ -63,7 +63,7 @@ class ChatViewModel(
                 currentJourney.value?.let {
                     if(it.size <= idx) {
                         // send prompt to model
-                        //sendMessage(prompt)
+                        sendMessage(prompt)
                         currIdx.value = -1
                         return@let
                     }
@@ -80,15 +80,12 @@ class ChatViewModel(
     }
 
     private fun pushNearByMessage(leg: TripLeg) {
-        val prompt = buildString {
+        val msgPrompt = buildString {
             append("Have you visited any of these places?")
-            if(leg.nearbyPlaces.size == 0) {
-                // add leg to prompt
+            if(leg.nearbyPlaces.isEmpty()) {
                 prompt += leg
                 currIdx.value = currIdx.value + 1
-            }
-            leg.nearbyPlaces.forEachIndexed { index, place ->
-                append("${currIdx}. ${place.nodeName}")
+                return
             }
         }
 
@@ -102,7 +99,7 @@ class ChatViewModel(
 
         _uiState.value.addMessage(
             ChatMessage(
-                text = prompt,
+                text = msgPrompt,
                 participant = Participant.MODEL,
                 isPending = false,
                 chips = chips,
@@ -141,13 +138,13 @@ class ChatViewModel(
 
     fun sendMessage(userMessage: String) {
         // Add a pending message
-        _uiState.value.addMessage(
-            ChatMessage(
-                text = userMessage,
-                participant = Participant.USER,
-                isPending = true
-            )
-        )
+//        _uiState.value.addMessage(
+//            ChatMessage(
+//                text = userMessage,
+//                participant = Participant.USER,
+//                isPending = true
+//            )
+//        )
 
         viewModelScope.launch {
             try {
@@ -240,6 +237,15 @@ class ChatViewModel(
         details.chips = details.chips.filter {
             it.enabled == true
         }
+
+        currentJourney.value?.let {
+            val foundEle = it[currIdx.value]
+            foundEle.nearbyPlaces = foundEle.nearbyPlaces.filter { np ->
+                details.chips.find { it.text ==  np.nodeName } != null
+            }
+            prompt += foundEle
+        }
+
 
         currIdx.value = currIdx.value + 1
 

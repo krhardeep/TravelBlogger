@@ -77,18 +77,18 @@ internal fun ChatRoute(
     val coroutineScope = rememberCoroutineScope()
 
     Scaffold(
-        bottomBar = {
-            MessageInput(
-                onSendMessage = { inputText ->
-                    chatViewModel.sendMessage(inputText)
-                },
-                resetScroll = {
-                    coroutineScope.launch {
-                        listState.scrollToItem(0)
-                    }
-                }
-            )
-        }
+//        bottomBar = {
+//            MessageInput(
+//                onSendMessage = { inputText ->
+//                    chatViewModel.sendMessage(inputText)
+//                },
+//                resetScroll = {
+//                    coroutineScope.launch {
+//                        listState.scrollToItem(0)
+//                    }
+//                }
+//            )
+//        }
     ) { paddingValues ->
         Column(
             modifier = Modifier

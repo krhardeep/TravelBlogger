@@ -2,33 +2,134 @@
   "journey": [
     {
       "date": "2024-06-15",
-      "type": "travel",
-      "location": {
-        "nodeName": "Leh Airport",
-        "city": "Leh",
-        "areaName": "Kushok Bakula Rimpochee Airport"
-      },
-      "stopDuration": "60",
-      "transportMode": "airplane",
-      "travelTime": "1 hour 30 minutes",
-      "photos": [
-        "https://example.com/photos/leh_airport.jpg"
-      ],
-      "weather": "Sunny",
-      "temperature": 15,
-      "activityLevel": "Relaxing",
-      "nearbyPlaces": []
-    },
-    {
-      "date": "2024-06-15",
       "type": "accommodation",
       "location": {
-        "nodeName": "Hotel Grand Dragon Ladakh",
+        "nodeName": "Hotel Spic N Span",
         "city": "Leh",
         "address": "Old Road Sheynam, Leh Ladakh 194101 India",
         "link": "https://www.hoteldragongrand.com/"
       },
-      "stopDuration": "240",
+      "stopDuration": "0",
+      "time": "10:00:00",
+      "weather" : "Sunny Morning",
+      "temperature": 14,
+      "activityLevel": "Relaxing",
+      "nearbyPlaces": [],
+      "photos": [
+        "https://example.com/photos/grand_dragon_ladakh.jpg"
+      ]
+    },
+    {
+      "date": "2024-06-15",
+      "type": "Museum",
+      "location": {
+        "nodeName": "Hall Of Fame",
+        "city": "Leh",
+        "address": "Hall Of Fame",
+        "link": "https://www.hoteldragongrand.com/"
+      },
+      "stopDuration": "70",
+      "time": "10:15:15",
+      "weather" : "Sunny & Breezy Morning",
+      "temperature": 15,
+      "activityLevel": "Relaxing",
+      "nearbyPlaces": [],
+      "photos": [
+        "https://example.com/photos/grand_dragon_ladakh.jpg"
+      ]
+    },
+    {
+      "date": "2024-06-15",
+      "type": "Natural Site",
+      "location": {
+        "nodeName": "Magnetic Hill",
+        "city": "Leh",
+        "address": "Magnetic Hill",
+        "link": "https://www.hoteldragongrand.com/"
+      },
+      "stopDuration": "30",
+      "time": "11:46:08",
+      "weather" : "Sunny morning",
+      "temperature": 17,
+      "activityLevel": "Relaxing",
+      "nearbyPlaces": [],
+      "photos": [
+        "https://example.com/photos/grand_dragon_ladakh.jpg"
+      ]
+    },
+
+    {
+      "date": "2024-06-15",
+      "type": "River Side",
+      "location": {
+        "nodeName": "Sangam Point",
+        "city": "Leh",
+        "address": "Sangam Point",
+        "link": "https://www.hoteldragongrand.com/"
+      },
+      "stopDuration": "100",
+      "time": "12:28:13",
+      "weather" : "Sunny Afternoon",
+      "temperature": 20,
+      "activityLevel": "Relaxing",
+      "nearbyPlaces": [],
+      "photos": [
+        "https://example.com/photos/grand_dragon_ladakh.jpg"
+      ]
+    },
+
+    {
+      "date": "2024-06-15",
+      "type": "Religious Place",
+      "location": {
+        "nodeName": "Gurudwara Pathar Sahib",
+        "city": "Leh",
+        "address": "Gurudwara Pathar Sahib",
+        "link": "https://www.hoteldragongrand.com/"
+      },
+      "stopDuration": "60",
+      "time": "14:35:33",
+      "weather" : "Sunny Afternoon",
+      "temperature": 18,
+      "activityLevel": "Relaxing",
+      "nearbyPlaces": [],
+      "photos": [
+        "https://example.com/photos/grand_dragon_ladakh.jpg"
+      ]
+    },
+    {
+      "date": "2024-06-15",
+      "type": "Religious Place",
+      "location": {
+        "nodeName": "Shanti Stupa",
+        "city": "Leh",
+        "address": "Shanti Stupa",
+        "link": "https://www.hoteldragongrand.com/"
+      },
+      "stopDuration": "60",
+      "time": "4:01:25",
+      "weather" : "Breezy",
+      "temperature": 15,
+      "activityLevel": "Relaxing",
+      "nearbyPlaces": [],
+      "photos": [
+        "https://example.com/photos/grand_dragon_ladakh.jpg"
+      ]
+    },
+    {
+      "date": "2024-06-15",
+      "type": "City Centre",
+      "location": {
+        "nodeName": "Fort Road",
+        "city": "Leh",
+        "address": "Old Road Sheynam, Leh Ladakh 194101 India",
+        "link": "https://www.hoteldragongrand.com/"
+      },
+      "stopDuration": "0",
+      "time": "17:30:15",
+      "weather" : "Cool & Breezy",
+      "temperature": 12,
+
       "photos": [
         "https://example.com/photos/grand_dragon_ladakh.jpg"
       ],

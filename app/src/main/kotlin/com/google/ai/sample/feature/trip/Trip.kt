@@ -15,7 +15,7 @@ data class TripLeg(
     val weather: String? = null,
     val temperature: Int? = null,
     val activityLevel: String? = null,
-    val nearbyPlaces: List<Location> = emptyList()
+    var nearbyPlaces: List<Location> = emptyList()
 )
 
 data class Location(
