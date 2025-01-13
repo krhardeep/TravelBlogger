@@ -43,7 +43,8 @@ class ChatViewModel(
         )
     )
 
-    private var prompt: String = ""
+    private var prompt: String = "Role: You are a seasoned travel blogger with a knack for storytelling and vivid descriptions.\n" +
+            "Objective: Write a captivating blog post based on the travel locations provided below."
 
     private var currIdx = MutableStateFlow<Int>(-1)
     private val trip = MutableStateFlow<Trip?>(null)
